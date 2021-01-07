@@ -5,3 +5,10 @@ C:\Users\cdes5\source\repos\ConsoleApplicationWinter2021\ConsoleApplicationWinte
 C:\Users\cdes5\source\repos\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.csproj.CoreCompileInputs.cache
 C:\Users\cdes5\source\repos\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.exe
 C:\Users\cdes5\source\repos\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.pdb
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\bin\Debug\ConsoleApplicationWinter2021.exe.config
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\bin\Debug\ConsoleApplicationWinter2021.exe
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\bin\Debug\ConsoleApplicationWinter2021.pdb
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.csprojAssemblyReference.cache
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.csproj.CoreCompileInputs.cache
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.exe
+C:\Users\cdes5\source\repos\CIT365\ConsoleApplicationWinter2021\ConsoleApplicationWinter2021\obj\Debug\ConsoleApplicationWinter2021.pdb
