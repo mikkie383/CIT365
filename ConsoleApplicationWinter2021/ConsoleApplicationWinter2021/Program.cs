@@ -16,7 +16,7 @@ namespace ConsoleApplicationWinter2021
 
             //3.
             Console.WriteLine($"My name is {name}.");
-            Console.WriteLine($"I am from {location}");
+            Console.WriteLine($"I am from {location}.");
 
             //4.
             DateTime currentDate = DateTime.Now;
