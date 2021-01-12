@@ -30,10 +30,10 @@ namespace ConsoleApplicationWinter2021
             //6.Add the program example from section 2.1
             double width, height, woodLength, glassArea;
             string widthString, heightString;
-            Console.WriteLine("Please enter the width:");
+            Console.Write("Please enter a width:");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
-            Console.WriteLine("Please enter the height:");
+            Console.Write("Please enter a height:");
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
             woodLength = 2 * (width + height) * 3.25;
