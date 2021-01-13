@@ -1,0 +1,10 @@
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\bin\Debug\MathQuizWinter2021.exe.config
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\bin\Debug\MathQuizWinter2021.exe
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\bin\Debug\MathQuizWinter2021.pdb
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.csprojAssemblyReference.cache
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.Form1.resources
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.Properties.Resources.resources
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.csproj.GenerateResource.cache
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.csproj.CoreCompileInputs.cache
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.exe
+C:\Users\cdes5\source\repos\CIT365\MathQuizWinter2021\MathQuizWinter2021\obj\Debug\MathQuizWinter2021.pdb
