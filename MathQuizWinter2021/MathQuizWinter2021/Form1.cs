@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -41,9 +42,13 @@ namespace MathQuizWinter2021
         // remaining time.
         int timeLeft;
 
+        //current date
+        
+
         public Form1()
         {
             InitializeComponent();
+           
         }
 
         /// <summary>
@@ -52,6 +57,7 @@ namespace MathQuizWinter2021
         /// </summary>
         public void StartTheQuiz()
         {
+            timeLabel.BackColor = Color.White;
             // Fill in the addition problem.
             // Generate two random numbers to add.
             // Store the values in the variables 'addend1' and 'addend2'.
@@ -63,14 +69,14 @@ namespace MathQuizWinter2021
             // in the label controls.
             plusLeftLabel.Text = addend1.ToString();
             plusRightLabel.Text = addend2.ToString();
-
+            
             // 'sum' is the name of the NumericUpDown control.
             // This step makes sure its value is zero before
             // adding any values to it.
             sum.Value = 0;
 
             // Fill in the subtraction problem.
-            minuend = randomizer.Next(1, 101);
+            minuend = randomizer.Next(1, 100);
             subtrahend = randomizer.Next(1, minuend);
             minusLeftLabel.Text = minuend.ToString();
             minusRightLabel.Text = subtrahend.ToString();
@@ -126,6 +132,9 @@ namespace MathQuizWinter2021
                 // got the answer right. Stop the timer  
                 // and show a MessageBox.
                 timer1.Stop();
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\applause.wav");
+                soundPlayer.Play();
                 MessageBox.Show("You got all the answers right!",
                                 "Congratulations!");
                 startButton.Enabled = true;
@@ -151,6 +160,9 @@ namespace MathQuizWinter2021
                 // a MessageBox, and fill in the answers.
                 timer1.Stop();
                 timeLabel.Text = "Time's up!";
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\fail.wav");
+                soundPlayer.Play();
                 MessageBox.Show("You didn't finish in time.", "Sorry!");
                 sum.Value = addend1 + addend2;
                 difference.Value = minuend - subtrahend;
@@ -171,6 +183,62 @@ namespace MathQuizWinter2021
             {
                 int lengthOfAnswer = answerBox.Value.ToString().Length;
                 answerBox.Select(0, lengthOfAnswer);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //create date
+            DateTime dateTime = DateTime.Now;
+            currentDate.Text = dateTime.ToString("dd MMMM yyyy");
+        }
+
+        private void sum_ValueChanged(object sender, EventArgs e)
+        {
+            //get the value
+            var answer = ((NumericUpDown)sender).Value;
+
+            if((addend1 + addend2) == answer)
+            {
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\chimes.wav");
+                soundPlayer.Play();
+            }
+        }
+
+        private void difference_ValueChanged(object sender, EventArgs e)
+        {
+            var answer = ((NumericUpDown)sender).Value;
+
+            if ((minuend - subtrahend) == answer)
+            {
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\chimes.wav");
+                soundPlayer.Play();
+            }
+        }
+
+        private void product_ValueChanged(object sender, EventArgs e)
+        {
+            var answer = ((NumericUpDown)sender).Value;
+
+            if ((multiplicand * multiplier) == answer)
+            {
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\chimes.wav");
+                soundPlayer.Play();
+            }
+        }
+
+        private void quotient_ValueChanged(object sender, EventArgs e)
+        {
+            var answer = ((NumericUpDown)sender).Value;
+
+            if ((dividend / divisor) == answer)
+            {
+                //play sound
+                SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\cdes5\source\repos\CIT365\music\chimes.wav");
+                soundPlayer.Play();
             }
         }
     }
